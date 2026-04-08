@@ -44,9 +44,9 @@ def load_data():
 
     # CCTV
     try:
-        cctv = pd.read_csv('cctv 대수.csv', encoding='utf-8')
+        cctv = pd.read_csv('cctv_clean.csv', encoding='utf-8')
     except:
-        cctv = pd.read_csv('cctv 대수.csv', encoding='cp949')
+        cctv = pd.read_csv('cctv_clean.csv', encoding='cp949')
 
     # 인구 (헤더 2줄)
     try:
